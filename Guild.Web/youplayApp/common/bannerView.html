@@ -1,4 +1,11 @@
-﻿<div class="youplay-banner banner-top youplay-banner-parallax">
-    <div class="image" style="background-image: url(/images/ESO1.jpg); transform: translate3d(0px, 0.122709px, 0px);">
+﻿<div class="youplay-banner banner-top youplay-banner-parallax" ng-show="bannerCtrl.top == 'true'">
+    <div class="image" style="background-image:{{bannerCtrl.imageurl}}">
     </div>
 </div>
+
+
+<div class="youplay-banner youplay-banner-parallax" ng-show="bannerCtrl.top == 'false'">
+    <div class="image" style="background-image:{{bannerCtrl.imageurl}}">
+    </div>
+</div>
+

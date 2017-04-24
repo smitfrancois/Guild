@@ -23,8 +23,8 @@
         "jarallax": { exports: "jarallax", deps: ["bootstrap"] },
         "moment": { exports: "moment", deps: ["bootstrap"] },
         "owlCarousel": { exports: "owlCarousel", deps: ["bootstrap"] },
-        "smoothScroll": { exports: "smoothScroll", deps: ["bootstrap"] },
-        "youPlay": { exports: "youplay", deps: ["bootstrap"] },
+        "smoothScroll": { exports: "smoothScroll", deps: ["jarallax"] },
+        "youPlay": { exports: "youplay", deps: ["smoothScroll"] },
         "bannerController": { deps: ["youPlay"] },
         "bannerDirective": { deps: ["youPlay"] },
         "commonServices":{deps:["youPlay"]}

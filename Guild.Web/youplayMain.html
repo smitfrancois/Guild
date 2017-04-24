@@ -10,7 +10,7 @@
 	<meta charset="utf-8" />
 
 </head>
-<body style="background-image: url(/images/ESO1.jpg);background-attachment:fixed; transform: translate3d(0px, 0.122709px, 0px);">
+<body style="background-image: url(/images/ESO1.jpg);background-attachment:fixed">
     <section class="content-wrap" >
 
         <!-- Banner -->
@@ -19,16 +19,28 @@
             </div>
         </div>-->
         <!-- /Banner -->
-        <banner></banner>
+        <banner top="true" imageurl="url(/images/ESO1.jpg)"></banner>
+        <main>
 
-        <div class="container youplay-content">
-            ...
-        </div>
+            <div class="container youplay-content">
+                ...
+            </div>
 
-        <div class="youplay-banner youplay-banner-parallax">
+            <banner top="false" imageurl="url(/images/ESO1.jpg)"></banner>
+
+            <div class="container youplay-content">
+                ...
+            </div>
+
+            <banner top="false" imageurl="url(/images/ESO1.jpg)"></banner>
+
+        </main>
+       
+
+        <!--<div class="youplay-banner youplay-banner-parallax">
             <div class="image" style="background-image: url(/images/ESO1.jpg); transform: translate3d(0px, 0.122709px, 0px);">
             </div>
-        </div>
+        </div>-->
 
         <!-- Footer -->
         <footer>
